@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<style>
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+ margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+
+ input[type=submit]:hover {
+ background-color: #45a049;
+ }
+ </style>
+ </body>
+ <h1>Contact Form</h1>
+<div class="container">
+     <form action="/action_page.php">
+<lable for="fname">First Name</lable>
+<input type="text" id="fname" name="firstname" value="Enter Your name..">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" value="Enter Your last name..">
+ <lable for="email">Email</lable>
+<input type="text" id="email" name="email" value=" Enter Your Email ID..">
+<lable for="contact number">Contact Number</lable>
+<input type="text" id="contact number" name="contact number" value="Enter The Mobile Number..">
+<label for="country">Country</label>
+<select id="country" name="country">
+<option value="india">India</option>
+ <option value="spain">Spain</option>
+ <option value="usa">USA</option>
+</select>
+<input type="submit" value="Submit">
+
+</form>
+
+
+</div>
+</form>
+</body>
+</html>
+
+
